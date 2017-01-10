@@ -1,0 +1,36 @@
+{
+  "name": "UberAuth",
+  "version": "1.0.0",
+  "author": "Danny Andreini",
+  "description": "One button pickup with accurate arrival time & price estimation for desktop",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "",
+  "dependencies": {
+    "express": "*",
+    "mongoose": "^4.7.6",
+    "passport": "^0.3.2",
+    "passport-local" : "~0.1.6",
+    "rapidapi-connect": "0.0.2",
+    "request": "*",
+    "swagger-express-mw": "*",
+    "connect-flash" : "~0.1.1",
+    "bcrypt-nodejs" : "latest",
+    "body-parser": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "express-session": "~1.0.0",
+    "ejs" : "~0.8.5",
+    "passport-facebook" : "~1.0.2",
+    "passport-twitter" : "~1.0.2",
+    "passport-google-oauth" : "~0.1.5"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.0",
+    "nodemon": "^1.9.2",
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  }
+}

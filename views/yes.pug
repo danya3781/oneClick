@@ -1,0 +1,23 @@
+//
+   Created by dandreini16 on 1/2/17.
+html(lang='en')
+    head
+        //meta(http-equiv="content-type", content="#{application/JSON}; charset=UTF-8")
+        title Hi
+        script(src='http://code.jquery.com/jquery-latest.js')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    body(align='center')
+        br
+        h4 Welcome #{first_name} #{last_name}.
+        br
+        br
+        img(src='img/uber.jpg', height='250px')
+        br
+
+        // h1 #{}
+        #container
+            br
+            //input(type='button', class='btn btn-success' onclick="window.open(location.href='/api/login');", value='Login with Uber')
+            input(type='button', class='btn btn-warning' onclick="location.href='/';", value='Home')
+

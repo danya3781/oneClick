@@ -1,0 +1,20 @@
+//
+   Created by dandreini16 on 1/2/17.
+
+html(lang='en')
+    head
+        title oneClick
+        script(src='http://code.jquery.com/jquery-latest.js')
+        script(src='/js/bootstrap.js')
+        link(rel='stylesheet', href='css/bootstrap.css')
+    body(align='center')
+        br
+        h1 oneClick
+
+        h6 Simple Uber Authentification
+
+        img(src='img/uberLogo.png', height='200px')
+
+        #container
+            input(type='button', class='btn btn-success' onclick="location.href='/api/login';", value='Login with Uber')
+

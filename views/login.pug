@@ -1,0 +1,43 @@
+//
+   Created by dandreini16 on 1/4/17.
+
+html
+    head
+        title Node Authentication
+        link(href='https://fonts.googleapis.com/css?family=Montserrat', rel='stylesheet')
+        link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css')
+        // load bootstrap css
+        link(rel='stylesheet', href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css')
+        // load fontawesome
+        style.
+            body {
+                padding-top: 80px;
+            }
+    body(style='background-color: #123456; color: whitesmoke')
+        .container(align='center')
+            h1(style='font-family: Montserrat; color: bisque ')
+                strong oneClick
+            br
+            h3(style='font-family: Montserrat') Save your favorite Uber rides and order them with just one click.
+        .container(style='font-family: Montserrat;')
+            .col-sm-6.col-sm-offset-3
+                h3
+                    span.fa.fa-sign-in
+                    |  Login
+                // show any messages that come back with authentication
+
+
+                // LOGIN FORM
+                form(action='/login', method='post')
+                    .form-group
+                        label Email
+                        input.form-control(type='text', name='email')
+                    .form-group
+                        label Password
+                        input.form-control(type='password', name='password')
+                    button.btn.btn-warning.btn-lg(type='submit') Login
+                hr
+                p
+                    | Need an account?
+                    a(href='/signup')  Signup
+                p
